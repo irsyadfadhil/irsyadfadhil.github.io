@@ -1090,15 +1090,15 @@ a:focus {
 
 
 /*******************************/
-/*********** Team CSS **********/
+/*********** education CSS **********/
 /*******************************/
-.team {
+.education {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
 }
 
-.team .team-item {
+.education .education-item {
     position: relative;
     background: #ffffff;
     margin-bottom: 30px;
@@ -1109,25 +1109,25 @@ a:focus {
     transition: ease-out 0.5s;
 }
 
-.team .team-img {
+.education .education-img {
     position: relative;
     width: 50%;
     overflow: hidden;
 }
 
-.team .team-img img {
+.education .education-img img {
     position: relative;
     width: 100%;
     transition: .5s;
 }
 
-.team .team-text {
+.education .education-text {
     position: relative;
     width: 50%;
     padding: 0 30px;
 }
 
-.team .team-text h2 {
+.education .education-text h2 {
     color: #01164c;
     font-size: 18px;
     font-weight: 600;
@@ -1135,26 +1135,26 @@ a:focus {
     transition: 1s;
 }
 
-.team .team-text h4 {
+.education .education-text h4 {
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 15px;
     transition: 1s;
 }
 
-.team .team-text p {
+.education .education-text p {
     margin-bottom: 20px;
     transition: 1s;
 }
 
-.team .team-social {
+.education .education-social {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-.team .team-social a.btn {
+.education .education-social a.btn {
     width: 35px;
     height: 35px;
     padding: 0;
@@ -1166,43 +1166,43 @@ a:focus {
     margin-right: 5px;
 }
 
-.team .team-item:hover {
+.education .education-item:hover {
     box-shadow: inset 800px 0 0 0 #01164c;
 }
 
-.team .team-item:hover .team-img img {
+/* .education .education-item:hover .education-img img {
     transform: scale(1.2);
-}
+} */
 
-.team .team-item:hover .team-text h2,
-.team .team-item:hover .team-text h4,
-.team .team-item:hover .team-text p {
+.education .education-item:hover .education-text h2,
+.education .education-item:hover .education-text h4,
+.education .education-item:hover .education-text p {
     color: #ffffff;
 }
 
-.team .team-item:hover .team-social a.btn {
+.education .education-item:hover .education-social a.btn {
     background: #ffffff;
 }
 
-.team .team-item:hover .team-social a.btn:hover {
+.education .education-item:hover .education-social a.btn:hover {
     border-color: #ffffff;
 }
 
 @media(max-width: 575.98px) {
-    .team .team-text {
+    .education .education-text {
         padding: 0 15px;
     }
     
-    .team .team-text h2 {
+    .education .education-text h2 {
         font-size: 16px;
         margin-bottom: 0;
     }
 
-    .team .team-text h4 {
+    .education .education-text h4 {
         margin-bottom: 5px;
     }
 
-    .team .team-text p {
+    .education .education-text p {
         font-size: 14px;
         line-height: 18px;
         margin-bottom: 10px;
